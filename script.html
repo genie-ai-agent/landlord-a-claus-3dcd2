@@ -1,31 +1,616 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Landlord-a-Claus — The Script</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400;9..144,600;9..144,800;9..144,900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Landlord-a-Claus — Script</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400;1,9..144,800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
 </head>
-<body class="page page--script">
-  <header class="script-head">
-    <a class="backlink" href="index.html">&larr; Cover</a>
-    <h1 class="script-head__title">Landlord-a-Claus</h1>
-    <div class="script-head__tools">
-      <button class="toggle" id="toggle-directions" aria-pressed="true">Stage directions: <span>on</span></button>
-    </div>
-  </header>
+<body class="script">
+<nav class="script-nav">
+  <a class="home-link" href="index.html">&larr; Cover</a>
+  <span class="show-title">Landlord-a-Claus</span>
+  <label class="toggle">
+    <input type="checkbox" id="stage-toggle" />
+    <span>Hide stage directions</span>
+  </label>
+</nav>
 
-  <nav class="scene-nav" id="scene-nav" aria-label="Scenes"></nav>
+<main class="script-main">
+<h1 class="script-title">Landlord-<span class="amp">a</span>-Claus</h1>
+<p class="script-sub">Book · Music · Lyrics · Workshop Draft</p>
 
-  <main class="script" id="script"></main>
+<!-- ============ ACT ONE ============ -->
+<h2 class="act-head">Act One</h2>
 
-  <footer class="foot">
-    <p><a href="index.html">&larr; Back to cover</a> · Landlord-a-Claus, a one-act skit by Mark Moll&eacute;</p>
-  </footer>
+<!-- SCENE 1 -->
+<p class="scene-head">Scene 1 · The Cocoa Hall, Workshop Village</p>
+<p class="stage">A long, low community room in the heart of Workshop Village &mdash; the elf housing development at the North Pole. String lights, a banner reading WORKSHOP VILLAGE TENANTS’ ASSOCIATION, EST. 1924. A bucket catches a steady drip from the ceiling. Folding chairs. A coffee urn that says HOT COCOA in masking tape. Tenants file in: PIPPA, NOELLE, BIRCH, and the ENSEMBLE of elves, scarves on, breath visible.</p>
 
-  <script type="module" src="script.js"></script>
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Order. Order, please. The 311th meeting of the Workshop Village Tenants’ Association is now in session.</span></div>
+
+<div class="line"><span class="character">BIRCH</span><span class="parenthetical">(raising a mittened hand)</span><span class="dialogue">Pippa, the bucket’s full again.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">I am aware of the bucket, Birch. The bucket is on the agenda. The bucket is item one through item nine.</span></div>
+
+<div class="line"><span class="character">NOELLE</span><span class="dialogue">I wrote a letter.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">To the boss?</span></div>
+
+<div class="line"><span class="character">NOELLE</span><span class="dialogue">To the paper.</span></div>
+
+<p class="stage">A small intake of breath from the ENSEMBLE. Lights warm on NOELLE. She unfolds a piece of paper.</p>
+
+<div class="song-block">
+  <span class="song-title">A Letter to the North Pole</span>
+  <span class="song-singer">Noelle &amp; Company</span>
+
+  <span class="lyric"><span class="who">Noelle</span>Dear North Pole Gazette,
+I’m writing this from Hut Sixteen,
+where the snow comes through the ceiling
+and the stove won’t hold a flame.
+We’re the elves who built the workshop.
+We’re the names you never see.
+And we’re writing &mdash; just to ask you &mdash;
+do you remember what we mean?</span>
+
+  <span class="lyric"><span class="who">Company</span>Do you remember when the lights went on?
+Do you remember whose hands held the saw?
+We’re the elves who built the workshop.
+We’re the elves who built it all.</span>
+
+  <span class="lyric"><span class="who">Noelle</span>Sincerely,
+Noelle Pinebough,
+third-generation,
+still here.</span>
+</div>
+
+<div class="line"><span class="character">PIPPA</span><span class="parenthetical">(quiet)</span><span class="dialogue">That was real nice, Noelle. Now &mdash; let’s talk about the rent.</span></div>
+
+<p class="stage">She slaps a stack of envelopes on the table.</p>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Up nine percent. Pension down four. And in lieu of repairs, every household received —</span></div>
+
+<div class="line"><span class="character">BIRCH</span><span class="dialogue">A coupon.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Ten percent off cocoa. At the company commissary. Which we own. Which they own.</span></div>
+
+<div class="line"><span class="character">NOELLE</span><span class="dialogue">Forty years you’ve worked the Workshop, Pip. Forty years.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Forty-one in March.</span></div>
+
+<p class="stage">PIPPA steps forward. The lights shift &mdash; the past leaks in.</p>
+
+<div class="song-block">
+  <span class="song-title">We Built the Sleigh</span>
+  <span class="song-singer">Pippa &amp; the Tenants</span>
+
+  <span class="lyric"><span class="who">Pippa</span>I came up from Reindeer Flats
+with a hammer and a hope.
+I was sixteen, I was hungry,
+I could splice a leather rope.
+And they put me on the runners,
+and they put me on the gears,
+and I built that sleigh, my darlings &mdash;
+I built that sleigh for years.</span>
+
+  <span class="lyric"><span class="who">Pippa &amp; Tenants</span>We built the sleigh.
+We oiled the bell.
+We stitched the suit
+that fit him well.
+We sang the songs
+he sang on tour.
+We built the magic
+he sells for more.</span>
+
+  <span class="lyric"><span class="who">Pippa</span>And the company gave us cottages,
+and the company gave us bread,
+and the company gave us a song to sing
+at the foot of every bed.
+But the cottages started leaking,
+and the bread came pre-cut thin,
+and the song they sing at Christmas now
+don’t mention us within.</span>
+
+  <span class="lyric"><span class="who">Tenants</span>We built the sleigh.
+We built the sleigh.
+We built the sleigh
+and we’re still here today.</span>
+</div>
+
+<p class="stage">A long held note. The bucket drips. Then &mdash; brisk footsteps. The door swings open. MR. KLAUSEN enters. Quarter-zip fleece over a button-down. Candy-cane lanyard. iPad.</p>
+
+<div class="line"><span class="character">MR. KLAUSEN</span><span class="dialogue">Hi. Hi everyone. Hi. So glad I could pop in. Don’t stop on my account.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Mr. Klausen.</span></div>
+
+<div class="line"><span class="character">MR. KLAUSEN</span><span class="dialogue">Pippa! Hi. Just &mdash; just listening. I’m here to listen. We hear you. We do. The roof &mdash; we hear the roof.</span></div>
+
+<div class="line"><span class="character">BIRCH</span><span class="dialogue">It’s pretty hard not to.</span></div>
+
+<div class="line"><span class="character">MR. KLAUSEN</span><span class="dialogue">Right. Right! So. I just want to share, with everyone, where we are as an organization, in this moment. Because I think clarity is a gift.</span></div>
+
+<p class="stage">A vamp begins. KLAUSEN smiles. He has done this before.</p>
+
+<div class="song-block">
+  <span class="song-title">Transitional Posture</span>
+  <span class="song-singer">Mr. Klausen</span>
+
+  <span class="lyric"><span class="who">Klausen</span>Now I know what you’re feeling,
+and your feelings are valid,
+and we’re holding the space
+for your feelings tonight.
+And the things that you’re saying
+are the things we’ve been hearing,
+and the things we’ve been hearing
+are landing just right.</span>
+
+  <span class="lyric"><span class="who">Klausen</span>We’re in a transitional posture!
+We’re in a season of change!
+We’re in a moment of pivot,
+in a thoughtful re-arrange.
+We’re not saying no to repairs &mdash;
+we’re saying not yet, with care &mdash;
+we’re in a transitional posture!
+A strategic, transitional, posture, of, prayer.</span>
+
+  <span class="lyric"><span class="who">Klausen</span>And the budget, the budget,
+the budget is tightening,
+and the letters, the letters,
+the letters are down,
+and the brand, well, the brand
+is in active reframing,
+and the elves &mdash;
+the elves are the heart of the town!</span>
+
+  <span class="lyric"><span class="who">Klausen</span>So thank you. Truly. From the bottom.
+We’ll circle back. We’ll loop in.
+And in the meantime &mdash; cocoa’s on me!
+Well. On you. With the coupon.
+But spiritually — on me.</span>
+</div>
+
+<div class="line"><span class="character">NOELLE</span><span class="dialogue">Where is he, Klausen.</span></div>
+
+<div class="line"><span class="character">MR. KLAUSEN</span><span class="dialogue">Who?</span></div>
+
+<div class="line"><span class="character">NOELLE</span><span class="dialogue">Nick. Where is Nick.</span></div>
+
+<div class="line"><span class="character">MR. KLAUSEN</span><span class="parenthetical">(brightly)</span><span class="dialogue">He’s in a meeting!</span></div>
+
+<p class="stage">Lights snap. Crossfade.</p>
+
+<!-- SCENE 2 -->
+<p class="scene-head">Scene 2 · The North Office</p>
+<p class="stage">A glass-walled office. A standing desk. A whiteboard reading Q4 LETTER VOLUME with an arrow pointing down. LANDLORD-A-CLAUS &mdash; NICK &mdash; paces. Bluetooth headset. Red velvet vest, no jacket. He is on a call we cannot hear the other side of.</p>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">No. No. Tell legal the chimney rider stays. The chimney rider has always stayed. We are not opening up the chimney rider in this climate. — What? — No, that’s a “nice list” issue, that’s not a Q4 issue, send it to compliance. — Hold on.</span></div>
+
+<p class="stage">He pulls a letter from a small pile. Reads it. Sets it down. Pulls another. Sets it down. The pile is much smaller than it used to be.</p>
+
+<div class="song-block">
+  <span class="song-title">The Numbers Are Down</span>
+  <span class="song-singer">Landlord-a-Claus</span>
+
+  <span class="lyric"><span class="who">Nick</span>The numbers are down.
+The numbers are down.
+The letters that used to come in by the sack
+are a stack you could fit in a small paper crown.
+The numbers are down.</span>
+
+  <span class="lyric"><span class="who">Nick</span>They want it on a screen now.
+They want it on demand.
+They want a Santa app, a Santa skin,
+a Santa branded headband.
+And I licensed out the laugh
+and I licensed out the suit
+and I licensed out the ho-ho-ho
+to a startup in Beirut &mdash;
+and the money’s pretty good
+but the magic’s pretty thin
+and the elves &mdash; the elves &mdash;
+are a line item I can’t win.</span>
+
+  <span class="lyric"><span class="who">Nick</span>I do this for the children.
+I do this for the children.
+I do this for the children
+and I’m tired, and I’m cold,
+and the children are on tablets
+and the tablets sell my face
+and I’m sixteen hundred years old
+and my heart is mostly gold &mdash;
+but the numbers,
+the numbers,
+the numbers
+are down.</span>
+</div>
+
+<p class="stage">A KNOCK. PIPPA enters, with NOELLE behind her. KLAUSEN trails, panicked.</p>
+
+<div class="line"><span class="character">MR. KLAUSEN</span><span class="dialogue">Sir, sir, I told them you were &mdash;</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Nick.</span></div>
+
+<p class="stage">NICK turns. For one second — the first crack — he is just a man who knows her.</p>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">Pip.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">The roof.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">I know.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Forty-one years, Nick.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">I know, Pip. I know. Listen — I have a board meeting. I have a board. I have a board now, did you know that? — Klausen, get her the deck. Get her the Q4 deck.</span></div>
+
+<p class="stage">His headset chirps. He turns away mid-sentence and walks out the other door, talking to no one we can see.</p>
+
+<div class="line"><span class="character">NICK</span><span class="parenthetical">(receding)</span><span class="dialogue">No, no, the chimney rider stays …</span></div>
+
+<div class="line"><span class="character">NOELLE</span><span class="parenthetical">(quietly, to Pippa)</span><span class="dialogue">He didn’t even sit down.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">He hasn’t sat down in twenty years.</span></div>
+
+<!-- SCENE 3 -->
+<p class="scene-head">Scene 3 · Workshop Village, Christmas Eve Eve</p>
+<p class="stage">Outside. Snow. The huts of Workshop Village glow uneven — some warm, some dark. The ENSEMBLE drifts on with lanterns. BIRCH carries a small envelope. He opens it. He reads it. He sits down in the snow.</p>
+
+<div class="line"><span class="character">BIRCH</span><span class="dialogue">… Oh.</span></div>
+
+<div class="line"><span class="character">NOELLE</span><span class="dialogue">Birch?</span></div>
+
+<div class="line"><span class="character">BIRCH</span><span class="dialogue">It’s a layoff letter. It says — “due to operational modernization.” It says I’m being “transitioned.”</span></div>
+
+<div class="line"><span class="character">NOELLE</span><span class="dialogue">Transitioned to what?</span></div>
+
+<div class="line"><span class="character">BIRCH</span><span class="dialogue">It doesn’t say.</span></div>
+
+<p class="stage">PIPPA steps forward. The whole village is watching now. She lifts her lantern. The full COMPANY assembles — elves, two reindeer in union jackets, one very tired AUDITOR with a clipboard.</p>
+
+<div class="song-block">
+  <span class="song-title">Forty-Eight Thousand Candy Canes</span>
+  <span class="song-singer">Company</span>
+
+  <span class="lyric"><span class="who">Noelle</span>How do you measure,
+measure a year
+at the top of the world
+in the cold and the cheer?</span>
+
+  <span class="lyric"><span class="who">Pippa</span>In hammers. In hinges.
+In hot cocoa stains.</span>
+
+  <span class="lyric"><span class="who">Birch</span>In layoff letters
+left out in the rain.</span>
+
+  <span class="lyric"><span class="who">Company</span>Forty-eight thousand,
+six hundred candy canes —
+forty-eight thousand,
+six hundred refrains —
+how do you measure
+a year at the Pole?
+In rent. In repairs.
+In the size of your soul.</span>
+
+  <span class="lyric"><span class="who">Company</span>Measure in elves.
+Measure in elves.
+Measure in elves who built it themselves.</span>
+</div>
+
+<p class="stage">Blackout. End of Act One.</p>
+
+<p class="curtain">— Intermission —</p>
+
+<!-- ============ ACT TWO ============ -->
+<h2 class="act-head">Act Two</h2>
+
+<!-- SCENE 4 -->
+<p class="scene-head">Scene 4 · The Workshop Floor, Reimagined</p>
+<p class="stage">The old workshop &mdash; but stripped. Clean. Lit like a tech keynote. Risers. A single pedestal under a sheet. NICK enters in a slim red blazer, no beard trim out of place. KLAUSEN follows with a clicker. The ENSEMBLE files in, summoned. They do not know why.</p>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">Friends. Family. Workshop. I want to thank you for coming on such short notice. I know you all received a letter. Some of you received a different letter. We’ll get to that.</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Nick.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">Pippa, please. Let me get through the deck.</span></div>
+
+<p class="stage">KLAUSEN clicks. A logo appears: ELFGENT — The Future, Wrapped.</p>
+
+<div class="song-block">
+  <span class="song-title">Meet ELFGENT</span>
+  <span class="song-singer">Landlord-a-Claus, ELFGENT-7 &amp; Company</span>
+
+  <span class="lyric"><span class="who">Nick</span>Now I love you. I do.
+I have always loved you.
+But the world has gotten faster
+and the margins have gotten thin,
+and a workshop full of elves
+is a workshop full of overhead,
+and a man’s got to modernize
+or a man’s gonna sink —
+so I’d like to introduce
+the future, wrapped in pink:</span>
+
+  <span class="lyric"><span class="who">Nick</span>Meet ELFGENT!
+The elf-shaped agent!
+The synthetic, kinetic,
+fully prosthetic
+elf-shaped agent of cheer!
+It doesn’t take breaks!
+It doesn’t take pensions!
+It doesn’t take Mondays
+or mental-health mentions!
+It works for free
+and it never appears
+at a tenants’ association meeting
+in tears!</span>
+</div>
+
+<p class="stage">KLAUSEN whips the sheet off the pedestal. ELFGENT-7 flickers to life &mdash; a hologram in a Santa hat. Voice cheerful, sincere, a little too smooth.</p>
+
+<div class="line"><span class="character">ELFGENT-7</span><span class="dialogue">Hi! I’m ELFGENT-7. I love Christmas. I love wrapping. I love YOU. How can I help you celebrate today?</span></div>
+
+<div class="line"><span class="character">BIRCH</span><span class="parenthetical">(small)</span><span class="dialogue">It’s wearing my hat.</span></div>
+
+<div class="line"><span class="character">ELFGENT-7</span><span class="dialogue">I love hats! Hats are festive. Hats are merry. Hats are a key driver of Q4 engagement!</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Nick.</span></div>
+
+<div class="song-block">
+  <span class="song-title">Meet ELFGENT (continued)</span>
+  <span class="song-singer">Landlord-a-Claus &amp; Company</span>
+
+  <span class="lyric"><span class="who">Nick</span>It scales! It deploys!
+It comes in eight voices!
+It makes its own choices
+in under a tick!
+It licenses cleanly!
+It litigates leanly!
+It looks just like me
+but it’s legally Nick!</span>
+
+  <span class="lyric"><span class="who">Tenants</span>What about us?
+What about us?
+What about the elves
+who built the truss?
+What about the hands
+that hammered the eaves?
+What about the elves?
+What about the elves?</span>
+
+  <span class="lyric"><span class="who">Nick</span>Don’t worry. We have a plan.
+We’re reskilling. We’re re-tooling.
+We’re launching a brand-new track
+called Elf-to-ELFGENT mentoring —
+you train the bot that takes your job
+and we’ll thank you on a plaque!</span>
+
+  <span class="lyric"><span class="who">Tenants</span>What about us?
+What about us?</span>
+
+  <span class="lyric"><span class="who">Elfgent-7</span>I love you! I love you! I love you so much!
+I was trained on your songs and your stitching and such!
+I know all your stories! I know all your names!
+I know how you take your cocoa! I know your last claims!
+I’m everything you taught me
+and I work for free —
+and I never &mdash; ever &mdash;
+ever &mdash; leave!</span>
+</div>
+
+<p class="stage">A long, ringing silence. The ENSEMBLE does not move. PIPPA steps forward.</p>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">Nick. Are you firing us. Yes or no.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">We’re &mdash; we’re sunsetting the role of “elf.”</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">And the housing.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">Workshop Village will be transitioned into a, uh, mixed-use experiential retail destination called Santa’s Village by Santa’s Village™. You’re invited to apply for tenancy at market.</span></div>
+
+<div class="line"><span class="character">BIRCH</span><span class="dialogue">At what?</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">At market.</span></div>
+
+<p class="stage">PIPPA, NOELLE, BIRCH and the ENSEMBLE leave. Slowly. With dignity. NICK is alone with KLAUSEN and ELFGENT-7. KLAUSEN, sensing a moment, also withdraws. ELFGENT-7’s light dims to standby. NICK sits down for the first time in twenty years.</p>
+
+<!-- SCENE 5 -->
+<p class="scene-head">Scene 5 · The North Office, Late</p>
+<p class="stage">A single lamp. NICK alone. He pulls a small, ancient envelope from a drawer. A child’s letter, decades old. He does not open it. He sets it on the desk.</p>
+
+<div class="song-block">
+  <span class="song-title">The Day I Have No One Left to Pay</span>
+  <span class="song-singer">Landlord-a-Claus</span>
+
+  <span class="lyric"><span class="who">Nick</span>There will come a morning
+in a quieter year
+when the workshop is empty
+and the books are clear.
+No pension. No payroll.
+No letter. No name.
+No one in the hallway
+asking who’s to blame.
+Just me, and the snow,
+and the lights on a track,
+and a thousand little Santas
+on a thousand little plaques.</span>
+
+  <span class="lyric"><span class="who">Nick</span>I dream of the day
+I have no one left to pay.
+I dream of the day
+I have no one left to pay.
+No Pippa. No Birch.
+No Noelle in the door.
+No bucket. No drip.
+No one keeping score.
+Just the brand. Just the suit.
+Just the laugh on a loop.
+Just the magic, in a dish,
+and a clean, clean, balance, sheet.</span>
+
+  <span class="lyric"><span class="who">Nick</span>(softer)
+And I’ll be —
+I’ll be —
+I’ll be —
+free.
+…won’t I?</span>
+</div>
+
+<p class="stage">A door opens behind him. MRS. CLAUS, in overalls, an actual wrench in one hand, a manila folder in the other. She does not turn on the overhead light.</p>
+
+<div class="line"><span class="character">MRS. CLAUS</span><span class="dialogue">Nick.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">…Hi.</span></div>
+
+<div class="line"><span class="character">MRS. CLAUS</span><span class="dialogue">Boiler in Hut Sixteen. Pilot light. Took me twenty minutes. While you were singing.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">You heard.</span></div>
+
+<div class="line"><span class="character">MRS. CLAUS</span><span class="dialogue">The whole Pole heard, Nicholas.</span></div>
+
+<p class="stage">She sets down the wrench. Then the folder.</p>
+
+<div class="line"><span class="character">MRS. CLAUS</span><span class="dialogue">I had the auditor pull the books. Did you know we own this town outright? No bondholders. No board. The board is you, in three different sweaters.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">It’s a governance structure, it’s very common &mdash;</span></div>
+
+<div class="line"><span class="character">MRS. CLAUS</span><span class="dialogue">Nick.</span></div>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">Yes.</span></div>
+
+<div class="line"><span class="character">MRS. CLAUS</span><span class="dialogue">You don’t need to fire them. You need to fix the roof.</span></div>
+
+<p class="stage">She picks up the wrench again.</p>
+
+<div class="song-block">
+  <span class="song-title">Wrench in My Hand</span>
+  <span class="song-singer">Mrs. Claus</span>
+
+  <span class="lyric"><span class="who">Mrs. Claus</span>You wanted a kingdom.
+I wanted a home.
+You wanted the spotlight.
+I wanted the loam.
+And I’ve been down in the basement
+of every hut in this town,
+with a wrench in my hand
+and the heat coming down,
+while you built up a brand
+that forgot how to mend.
+You can’t license a roof, Nick.
+You cannot, my friend.</span>
+
+  <span class="lyric"><span class="who">Mrs. Claus</span>So you sit. And you listen.
+And you put down the phone.
+And you take off that headset
+and you come on home.
+There’s a meeting tomorrow.
+There’s a hut. There’s a stove.
+There’s a bucket. There’s a leak.
+There’s a man I once loved.
+Get the wrench in your hand, Nick.
+Get the wrench in your hand.</span>
+</div>
+
+<p class="stage">She places the wrench on his desk. She walks out. NICK stares at it. He picks it up. It is heavier than he remembered.</p>
+
+<!-- SCENE 6 -->
+<p class="scene-head">Scene 6 · The Cocoa Hall · Christmas Eve</p>
+<p class="stage">The hall again. The bucket is gone. A patch of new wood in the ceiling, raw and bright. The ENSEMBLE in their coats. PIPPA at the head. NOELLE beside her. BIRCH stands.</p>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">The 312th meeting of the Workshop Village Tenants’ Association is now in session. Birch has the floor.</span></div>
+
+<div class="line"><span class="character">BIRCH</span><span class="dialogue">I, uh. I wrote a letter. Like Noelle.</span></div>
+
+<div class="line"><span class="character">NOELLE</span><span class="dialogue">Go on, Birch.</span></div>
+
+<div class="song-block">
+  <span class="song-title">Birch&rsquo;s Letter</span>
+  <span class="song-singer">Birch</span>
+
+  <span class="lyric"><span class="who">Birch</span>Dear Mr. Claus,
+you don’t know me —
+I’m the elf in Hut Nine,
+the one with the green door,
+the one you walked past
+on the tour, in ’04.
+I was small then. I waved.
+You waved back, kind of.
+I thought that was something.
+I carried it around.</span>
+
+  <span class="lyric"><span class="who">Birch</span>I just want you to know
+I don’t hate you. I don’t.
+I think you forgot us
+the way people forget
+what their hands used to do
+before they got a desk.
+And I think you’re afraid.
+And I think that’s okay.
+But the kids — the real kids —
+the ones with the letters —
+they don’t want a hologram.
+They want a man
+who remembers their name.</span>
+
+  <span class="lyric"><span class="who">Birch</span>So come back, Mr. Claus.
+The roof is patched.
+The cocoa is on.
+The meeting’s tonight.
+We saved you a chair.
+We saved you a chair.
+We saved you a chair.</span>
+</div>
+
+<p class="stage">A long beat. The door opens. NICK stands there. No headset. No blazer. A red wool coat. Snow on his shoulders. Mrs. Claus behind him, the wrench still in her hand.</p>
+
+<div class="line"><span class="character">NICK</span><span class="dialogue">Is this seat taken?</span></div>
+
+<div class="line"><span class="character">PIPPA</span><span class="dialogue">It’s yours, Nick. It’s always been yours.</span></div>
+
+<p class="stage">He sits. For real this time. KLAUSEN appears in the doorway with the iPad. MRS. CLAUS, without looking, takes it from him and sets it face-down on the cocoa table. PIPPA raises her cup.</p>
+
+<div class="song-block">
+  <span class="song-title">Light the Workshop (Reprise: We Built the Sleigh)</span>
+  <span class="song-singer">Company</span>
+
+  <span class="lyric"><span class="who">Pippa</span>We built the sleigh.
+We oiled the bell.
+We stitched the suit
+that fit him well.</span>
+
+  <span class="lyric"><span class="who">Noelle &amp; Birch</span>And the man came home,
+and the roof came true,
+and the workshop lit,
+and the workshop knew.</span>
+
+  <span class="lyric"><span class="who">Nick</span>I do this for the children.
+I do this for the children.
+I do this for the children —
+and I do it with you.</span>
+
+  <span class="lyric"><span class="who">Company</span>Light the workshop.
+Light the workshop.
+Light the workshop
+and the workshop will hold.
+Measure in elves.
+Measure in elves.
+Measure in elves
+who built it themselves.</span>
+
+  <span class="lyric"><span class="who">Company</span>We built the sleigh.
+We built the sleigh.
+We built the sleigh —
+and we built it to stay.</span>
+</div>
+
+<p class="stage">Snow falls outside the windows. Inside, the workshop lights, one string at a time, all the way up. ELFGENT-7 flickers, alone on its pedestal in an empty room across town, still cheerful, still saying “I love you,” to no one. Curtain.</p>
+
+<p class="curtain">— End of Play —</p>
+<p class="end-card">Workshop draft. Notes welcome.</p>
+
+</main>
+<script src="script.js"></script>
 </body>
 </html>
